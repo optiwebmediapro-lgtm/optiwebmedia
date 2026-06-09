@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 80" fill="none">
+  <!-- Coin haut-gauche -->
+  <path d="M8 28 L8 8 L28 8" stroke="white" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Coin bas-gauche -->
+  <path d="M8 52 L8 72 L28 72" stroke="white" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Coin haut-droit -->
+  <path d="M68 8 L88 8 L88 28" stroke="white" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Coin bas-droit -->
+  <path d="M68 72 L88 72 L88 52" stroke="white" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Cercle extérieur de l'objectif -->
+  <circle cx="48" cy="40" r="20" stroke="white" stroke-width="2.2"/>
+
+  <!-- Iris / Diaphragme — 8 lamelles -->
+  <!-- On trace les lames de l'iris : arcs autour du centre -->
+  <!-- Lamelle 1 -->
+  <path d="M48 23 C38 26, 34 36, 37 46 C41 38, 46 33, 48 23Z" fill="white" opacity="0.92"/>
+  <!-- Lamelle 2 -->
+  <path d="M62 32 C60 22, 51 18, 41 21 C48 26, 54 30, 62 32Z" fill="white" opacity="0.92"/>
+  <!-- Lamelle 3 -->
+  <path d="M65 47 C69 38, 66 28, 59 23 C57 31, 57 37, 65 47Z" fill="white" opacity="0.92"/>
+  <!-- Lamelle 4 -->
+  <path d="M48 57 C58 54, 62 44, 59 34 C55 42, 50 47, 48 57Z" fill="white" opacity="0.92"/>
+  <!-- Lamelle 5 -->
+  <path d="M34 48 C36 58, 45 62, 55 59 C48 54, 42 50, 34 48Z" fill="white" opacity="0.92"/>
+  <!-- Lamelle 6 -->
+  <path d="M31 33 C27 42, 30 52, 37 57 C39 49, 39 43, 31 33Z" fill="white" opacity="0.92"/>
+
+  <!-- Petit cercle central -->
+  <circle cx="48" cy="40" r="5" fill="#0f0e2e"/>
+  <circle cx="48" cy="40" r="5" stroke="white" stroke-width="1.5"/>
+
+  <!-- Texte OPTIWEB -->
+  <text x="102" y="35" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="22" fill="white" letter-spacing="1">OPTIWEB</text>
+  <!-- Texte MEDIA -->
+  <text x="102" y="62" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="22" fill="white" letter-spacing="1">MEDIA</text>
+</svg>
